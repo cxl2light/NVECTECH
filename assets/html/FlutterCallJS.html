@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Demo</title>  
+	<style type="text/css">
+        .Wdate{
+  box-sizing: border-box;
+  text-align:center;
+  font-size:1em;
+  border-radius:4px;
+  width:18%;
+}
+/* .Wdate:focus{
+  border:1px solid #ff7496;
+} */
+    </style>
+</head>
+<script src="jquery.min.js"></script>
+<body>
+   
+    <script type="text/javascript">
+    var d = []
+        function loadData(ip) {
+            $.ajax({
+                type : 'get',    //传输类型
+                async : true,    //同步执行
+                url : 'http://' + ip +'/cgi-bin/protocol.cgi?action=getCamera',
+                data : $('#time').serialize(),
+                dataType : 'json', //返回数据形式为json
+                success:function(json){
+                    json['ip'] = ip;
+                    d.push(JSON.stringify(json));
+                    MessageDeal.postMessage(d);
+                }
+            });
+        }
+
+    </script>
+	
+</body>
+</html>

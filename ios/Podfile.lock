@@ -1,0 +1,112 @@
+PODS:
+  - BIJKPlayer (0.7.16)
+  - ffmpeg-kit-ios-https (5.1)
+  - ffmpeg_kit_flutter_https (5.1.0):
+    - ffmpeg_kit_flutter_https/https (= 5.1.0)
+    - Flutter
+  - ffmpeg_kit_flutter_https/https (5.1.0):
+    - ffmpeg-kit-ios-https (= 5.1)
+    - Flutter
+  - fijkplayer (0.10.1):
+    - BIJKPlayer (~> 0.7.16)
+    - Flutter
+  - Flutter (1.0.0)
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - fluwx_no_pay (0.0.1):
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - image_gallery_saver (1.5.0):
+    - Flutter
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - permission_handler_apple (9.0.4):
+    - Flutter
+  - plugins (0.0.1):
+    - Flutter
+  - shared_preferences_ios (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Toast (4.0.0)
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - ffmpeg_kit_flutter_https (from `.symlinks/plugins/ffmpeg_kit_flutter_https/ios`)
+  - fijkplayer (from `.symlinks/plugins/fijkplayer/ios`)
+  - Flutter (from `Flutter`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - fluwx_no_pay (from `.symlinks/plugins/fluwx_no_pay/ios`)
+  - image_gallery_saver (from `.symlinks/plugins/image_gallery_saver/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - plugins (from `.symlinks/plugins/plugins/ios`)
+  - shared_preferences_ios (from `.symlinks/plugins/shared_preferences_ios/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - BIJKPlayer
+    - ffmpeg-kit-ios-https
+    - FMDB
+    - Toast
+
+EXTERNAL SOURCES:
+  ffmpeg_kit_flutter_https:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter_https/ios"
+  fijkplayer:
+    :path: ".symlinks/plugins/fijkplayer/ios"
+  Flutter:
+    :path: Flutter
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  fluwx_no_pay:
+    :path: ".symlinks/plugins/fluwx_no_pay/ios"
+  image_gallery_saver:
+    :path: ".symlinks/plugins/image_gallery_saver/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  plugins:
+    :path: ".symlinks/plugins/plugins/ios"
+  shared_preferences_ios:
+    :path: ".symlinks/plugins/shared_preferences_ios/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  BIJKPlayer: 4c5d66e5cb99ae5bade6f22a4fcc031722a81c64
+  ffmpeg-kit-ios-https: 8dffbe1623a2f227be98fc314294847a97f818e4
+  ffmpeg_kit_flutter_https: 8783df90a81483113f7d277813309cbf544af765
+  fijkplayer: 5ecf78e80cb97eed64cc170b094a4f691d9b9691
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  fluttertoast: 74526702fea2c060ea55dde75895b7e1bde1c86b
+  fluwx_no_pay: 9e1d24c31f92526c5608448840f22ae8114d4a19
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  image_gallery_saver: 259eab68fb271cfd57d599904f7acdc7832e7ef2
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  permission_handler_apple: 44366e37eaf29454a1e7b1b7d736c2cceaeb17ce
+  plugins: 6737e58939e7cf3fae5474b6b6cf80ac80d01b7f
+  shared_preferences_ios: 548a61f8053b9b8a49ac19c1ffbc8b92c50d68ad
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+
+PODFILE CHECKSUM: adb8176f7eb74bec0c5e8e772e1e2cf2373086c5
+
+COCOAPODS: 1.11.3
